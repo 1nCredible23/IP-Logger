@@ -1,1 +1,17 @@
+h1 {
+  text-align: center;
+}
 
+::selection {
+  background-color: turqoise;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
